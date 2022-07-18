@@ -100,16 +100,6 @@ path_fis_ds002422 = opj(path_ds002422, 'func', 'sub-01_task-rest_bold.nii.gz')
 
 # Estudio ds004101
 path_fis_ds004101 = opj(path_ds004101, 'func', 'sub-09114_ses-1pre_task-rest_bold.nii.gz')
-
-'''
-Ruta donde se guardaran los resultados
-'''
-path_expe = '/home/aracena/thesis_ds004101/00_fase0_tips_nibabel_funciones/'
-
-path_output = opj(path_expe,'00_01_atributos_nibabel_and_func_atributoimg', 'output')
-
-# Crear la(s) carpeta(s) de salida
-os.system('mkdir -p %s'%path_output);
 ```
 
 ## Función 'atributos_img'
@@ -599,12 +589,12 @@ print('--------------------------------------')
     --------------------------------------
     tiempo de ejecución
     
-     2.76 seg
-     0.046 min
+     2.721 seg
+     0.045 min
     --------------------------------------
     tiempo de ejecución del sistema y CPU
     
-     2.667 seg
+     2.663 seg
      0.044 min
     --------------------------------------
 
